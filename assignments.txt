@@ -1,0 +1,7 @@
+Create an EC2 instance
+Connect to your EC2 instance using ssh
+Create 5 files and 5 folders
+Change permissions for all files and folders to have full permissions
+Generate ssh keys (ssh-keygen)
+Add your public key to github 
+install git on your EC2 instance
