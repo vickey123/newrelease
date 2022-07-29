@@ -19,3 +19,17 @@ once you verify website on the http please go ahead and create ami for your inst
 Once ami created terminate your old instance and use your new ami to create new instance then change the security group rules and verify from internet
 Create a data lifecycle policy to create snapshots for everyone hour, wait for one hour verify snapshots created then terminate your instance and terminate your lifecycle policy.
 
+Create an IAM user called <nameyourchoice>, create a specific group <name your choice>, and attach only EC2fullaccess permissions to that group.
+Logout and Login back as an IAM user.
+Create an EC2 instance and an IAM user.
+connect to your EC2 instance 
+install git on that ec2 instance (command: sudo yum install git -y)
+Clone one your repositories from github
+Add 10 files to that repository
+commit them to remote repository.
+go to your aws account and terminate that instance 
+verify that you are unable to create other resources than EC2
+Logout as an IAM user and login back as a root user
+modify that IAM group permissions
+verify that you are able to create other service.
+logout and log back in as root user and delete all IAM users.
