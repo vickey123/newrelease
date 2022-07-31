@@ -33,3 +33,10 @@ Logout as an IAM user and login back as a root user
 modify that IAM group permissions
 verify that you are able to create other service.
 logout and log back in as root user and delete all IAM users.
+
+Install ansible on your computer
+Create an IAM user with ec2 full aceess, download csv file to get credentials
+Write an Ansible playbook to create an EC2 instace
+Write an Ansible playbook to create an AMI for the EC2 instance created in line 39
+Write an Ansible playbook to create snapshots for ebs volumes
+Write an Ansible playbook to terminate an EC2 instance
