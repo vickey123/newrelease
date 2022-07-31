@@ -36,7 +36,10 @@ logout and log back in as root user and delete all IAM users.
 
 Install ansible on your computer
 Create an IAM user with ec2 full aceess, download csv file to get credentials
+Create a repository in github called ansible-automation
+clone your repository to your local computer
 Write an Ansible playbook to create an EC2 instace
 Write an Ansible playbook to create an AMI for the EC2 instance created in line 39
 Write an Ansible playbook to create snapshots for ebs volumes
 Write an Ansible playbook to terminate an EC2 instance
+Commit all your playbooks to github
