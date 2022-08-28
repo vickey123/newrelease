@@ -43,3 +43,16 @@ Write an Ansible playbook to create an AMI for the EC2 instance created in line 
 Write an Ansible playbook to create snapshots for ebs volumes
 Write an Ansible playbook to terminate an EC2 instance
 Commit all your playbooks to github
+
+Create an IAM policy to stop start ec2(you will see the policy json in the link)
+Create an IAM role and attach policy created above
+Create a lambda function to stop ec2 instances(you will see the function code in the link)(note: in advanced settings choose iam role which is created above)
+Create a cloudwatch rule with cronjob of 10 mins next to your hour to stop 
+Create an one lambda function to start your instances
+Create a cloudwatch alarm with 13 mins next to your hour to start
+verify both lambda functions logs
+Terminate all lambda functions and cloudwatch rules
+Create a cloudformation stack to create entire above steps through console(script will be provided)
+delete cloduformations stack
+
+Create a cloudformation stack using ansible cloudformation module.
