@@ -56,3 +56,11 @@ Create a cloudformation stack to create entire above steps through console(scrip
 delete cloduformations stack
 
 Create a cloudformation stack using ansible cloudformation module.
+
+Create an EC2 instance and install terraform
+create a module(folder) to create an EC2 instance 
+create a module(folder) to create an IAM user
+create a module(folder) create s3 bucket
+once you verify them destroy them using terraform destroy
+create a branch in your github at infra-automation folder, and commit your terraform scripst to github and create a PR
+follow this document: https://learn.hashicorp.com/tutorials/terraform/aws-build
