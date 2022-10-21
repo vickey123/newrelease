@@ -74,5 +74,7 @@ build a docker image with a name sysadmin
 verify as a container
 Create a file name called demo_dockerfile.txt
 Explain each layer in detail in your dockerfile which is created above.
-commit it to your remote repository
+Create a readme.md file 
+Explain what is docker image, docker container, diff between image and container, docker commands you used for the above docker build project wiht one example and finally troubleshooting steps and commands with one sentence explanation.
+commit changes to your remote repository
 terminate your instance 
