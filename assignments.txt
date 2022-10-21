@@ -64,3 +64,15 @@ create a module(folder) create s3 bucket
 once you verify them destroy them using terraform destroy
 create a branch in your github at infra-automation folder, and commit your terraform scripst to github and create a PR
 follow this document: https://learn.hashicorp.com/tutorials/terraform/aws-build
+
+
+Create a separate repository name called Docker_repo
+Create an EC2 instance, install docker on that instance
+Clone Docker_repo to your instance
+Add a sample Dockerfile to build an image to print your company name and your title(java or python your choice)
+build a docker image with a name sysadmin
+verify as a container
+Create a file name called demo_dockerfile.txt
+Explain each layer in detail in your dockerfile which is created above.
+commit it to your remote repository
+terminate your instance 
