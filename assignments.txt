@@ -1,3 +1,16 @@
+Create a folder name called Nov_<firstletterinfirstandlastname>
+change your location to the folder which you created in step1
+create two more folders called folder1, and folder2
+Create two more folders inside folder1 and two more inside folder2
+Shuffle all five files between those folders
+Create five files at the same location from step1
+Copy one file at a time from your location to folder1(copy all five files)
+move all five files from folder1 to folder2
+Add contect to all files(display your name and Linux Administrator)
+check the contect in all files
+copy all files from folder2 to the location at step1.
+Remove two files from your current location.
+
 Create an EC2 instance
 Connect to your EC2 instance using ssh
 Create 5 files and 5 folders
