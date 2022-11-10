@@ -23,6 +23,13 @@ copy one file and one folder to each respository from step 3
 commit all changes to your remote repository.
 terminate your ec2 instance.
 
+Clone all repositories to your local
+Create 2 branches called feature1 and feature2 on each repository
+add some changes from each branch on each repository
+create a pull request from your each feature branch to main/master on each repository
+merge those changes from your feature branches and pull those changes from your remote repository to local
+merge feature2 changes to feature1 branch on each repository.
+
 Create an EC2 instance 
 Connect to your EC2 instance
 Install apache on your EC2 instance
