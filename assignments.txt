@@ -1,4 +1,4 @@
-Create a folder name called Nov_<firstletterinfirstandlastname>
+Create a folder name called VCIT_<firstletterinfirstandlastname>
 change your location to the folder which you created in step1
 create two more folders called folder1, and folder2
 Create two more folders inside folder1 and two more inside folder2
