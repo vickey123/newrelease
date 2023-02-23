@@ -30,6 +30,14 @@ create a pull request from your each feature branch to main/master on each repos
 merge those changes from your feature branches and pull those changes from your remote repository to local
 merge feature2 changes to feature1 branch on each repository.
 
+Create an EC2 user
+ssh to that instance as an ec2-user
+create 5 files, change file permissions to have owner of the files has full permission, owner group has read and write permissions, everyone else just read and excutable permissions.
+Login as a root user
+Create one more user called linuxuser, create password for linuxuser
+add linuxuser to wheel group
+create 5 files, change file permissions to have owner of the files has full permission, owner group has read and write permissions, everyone else just read and excutable permissions.
+
 Create an EC2 instance 
 Connect to your EC2 instance
 Install apache on your EC2 instance
