@@ -36,6 +36,14 @@ Create one more user called linuxuser, create password for linuxuser
 add linuxuser to wheel group
 create 5 files, change file permissions to have owner of the files has full permission, owner group has read and write permissions, everyone else just read and excutable permissions.
 
+Create an Ec2 instance 
+connect to that instance, install maven on that EC2(https://docs.aws.amazon.com/neptune/latest/userguide/iam-auth-connect-prerq.html follow this document)
+install git on EC2(sudo yum install git -y)
+Clone sample java spring boot app(https://spring.io/guides/gs/maven/ follow steps from this documentation)
+Create your first maven build, verify that jar file.
+update java file to change hello world! to your choice
+Document steps just a small description like what is maven and sample maven commands under your preparation document.
+
 Create an EC2 instance 
 Connect to your EC2 instance
 Install apache on your EC2 instance
