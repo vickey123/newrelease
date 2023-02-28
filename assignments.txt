@@ -13,13 +13,11 @@ Remove two files from your current location.
 
 Create an EC2 instance
 Connect to your EC2 instance using ssh
-Create 5 files and 5 folders
-Change permissions for all files and folders to have full permissions
-Generate ssh keys (ssh-keygen)
-Add your public key to github 
-install git on your EC2 instance(sudo yum install git -y)
-Now clone all your 5 repositories
-copy one file and one folder to each respository from step 3
+Create five users on this EC2
+Create ssh keys for all five users and add them to github(ssh-keygen)
+install git on your ec2 instance(sudo yum install git -y)
+Clone one repository per user
+add 5 files for to each repository and commit them.
 commit all changes to your remote repository.
 terminate your ec2 instance.
 
