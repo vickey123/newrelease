@@ -112,3 +112,11 @@ Create a readme.md file
 Explain what is docker image, docker container, diff between image and container, docker commands you used for the above docker build project wiht one example and finally troubleshooting steps and commands with one sentence explanation.
 commit changes to your remote repository
 terminate your instance 
+
+Create an EC2 instance 
+Install Ansible 2.9
+Install git
+generate ssh keys and add your public key to github
+clone one of your repositories to your local ec2 instance
+write an ansible playbook to create a 5 files(use file module not shell module) refer this doc: https://docs.ansible.com/ansible/2.9/modules/file_module.html
+Write another ansible playbook to commit these five files to your github repository.
