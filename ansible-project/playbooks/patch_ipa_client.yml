@@ -1,0 +1,19 @@
+- name: Patch IPA Client on RHEL 8 Servers
+  hosts: ipa_clients
+  become: yes
+  tasks:
+    - name: Check current IPA client version
+      command: ipa --version
+      register: ipa_version
+
+    - name: Update IPA client packages
+      dnf:
+        name: ipa-client
+        state: latest
+      when: ipa_version.stdout is defined
+
+    - name: Restart IPA client service
+      systemd:
+        name: ipa
+        state: restarted
+      when: ipa_version.stdout is defined and ipa_version.stdout != ''
