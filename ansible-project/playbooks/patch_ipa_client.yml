@@ -6,10 +6,11 @@
       command: ipa --version
       register: ipa_version
 
-    - name: Update IPA client packages
+    - name: Update all packages to the latest version excluding mail packages
       dnf:
-        name: ipa-client
+        name: '*'
         state: latest
+        exclude: 'mail*'
       when: ipa_version.stdout is defined
 
     - name: Restart IPA client service

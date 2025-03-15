@@ -1,0 +1,12 @@
+- name: Install STIG packages
+  dnf:
+    name: scap-security-guide
+    state: present
+
+- name: Apply STIG profile
+  command: oscap xccdf eval --profile stig /usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml
+  register: stig_result
+
+- name: Print STIG result
+  debug:
+    msg: "{{ stig_result.stdout }}"
